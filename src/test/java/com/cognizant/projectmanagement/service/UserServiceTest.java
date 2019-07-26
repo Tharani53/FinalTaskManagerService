@@ -16,10 +16,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.cognizant.TaskMananger.entity.User;
-import com.cognizant.TaskMananger.model.UserRequest;
-import com.cognizant.TaskMananger.repository.UserRepository;
-import com.cognizant.TaskMananger.service.UserService;
+import com.cognizant.TaskManager.entity.User;
+import com.cognizant.TaskManager.model.UserRequest;
+import com.cognizant.TaskManager.repository.UserRepository;
+import com.cognizant.TaskManager.service.UserService;
 
 public class UserServiceTest {
 

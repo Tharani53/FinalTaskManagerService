@@ -1,4 +1,4 @@
-package com.cognizant.TaskMananger.entity;
+package com.cognizant.TaskManager.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.cognizant.TaskMananger.model;
+package com.cognizant.TaskManager.model;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.cognizant.TaskMananger.controller;
+package com.cognizant.TaskManager.controller;
 
 
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cognizant.TaskMananger.model.ProjectObj;
-import com.cognizant.TaskMananger.service.ProjectService;
+import com.cognizant.TaskManager.model.ProjectObj;
+import com.cognizant.TaskManager.service.ProjectService;
 @CrossOrigin
 @RestController
 @RequestMapping(path="/project")

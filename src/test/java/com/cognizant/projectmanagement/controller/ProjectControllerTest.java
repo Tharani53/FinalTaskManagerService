@@ -24,9 +24,9 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.cognizant.TaskMananger.controller.ProjectController;
-import com.cognizant.TaskMananger.model.ProjectObj;
-import com.cognizant.TaskMananger.service.ProjectService;
+import com.cognizant.TaskManager.controller.ProjectController;
+import com.cognizant.TaskManager.model.ProjectObj;
+import com.cognizant.TaskManager.service.ProjectService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

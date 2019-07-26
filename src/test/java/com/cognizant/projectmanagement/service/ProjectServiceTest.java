@@ -15,12 +15,12 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.cognizant.TaskMananger.entity.Project;
-import com.cognizant.TaskMananger.entity.Task;
-import com.cognizant.TaskMananger.entity.User;
-import com.cognizant.TaskMananger.model.ProjectObj;
-import com.cognizant.TaskMananger.repository.ProjectRepository;
-import com.cognizant.TaskMananger.service.ProjectService;
+import com.cognizant.TaskManager.entity.Project;
+import com.cognizant.TaskManager.entity.Task;
+import com.cognizant.TaskManager.entity.User;
+import com.cognizant.TaskManager.model.ProjectObj;
+import com.cognizant.TaskManager.repository.ProjectRepository;
+import com.cognizant.TaskManager.service.ProjectService;
 
 public class ProjectServiceTest {
 	@InjectMocks

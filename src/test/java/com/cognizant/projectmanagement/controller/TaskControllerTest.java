@@ -20,12 +20,12 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.cognizant.TaskMananger.controller.TaskController;
-import com.cognizant.TaskMananger.entity.Project;
-import com.cognizant.TaskMananger.entity.Task;
-import com.cognizant.TaskMananger.entity.User;
-import com.cognizant.TaskMananger.model.TaskObj;
-import com.cognizant.TaskMananger.service.TaskService;
+import com.cognizant.TaskManager.controller.TaskController;
+import com.cognizant.TaskManager.entity.Project;
+import com.cognizant.TaskManager.entity.Task;
+import com.cognizant.TaskManager.entity.User;
+import com.cognizant.TaskManager.model.TaskObj;
+import com.cognizant.TaskManager.service.TaskService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

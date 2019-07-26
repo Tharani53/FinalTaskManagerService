@@ -1,10 +1,10 @@
-package com.cognizant.TaskMananger.service;
+package com.cognizant.TaskManager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cognizant.TaskMananger.entity.User;
-import com.cognizant.TaskMananger.repository.UserRepository;
+import com.cognizant.TaskManager.entity.User;
+import com.cognizant.TaskManager.repository.UserRepository;
 
 @Service
 public class UserService {

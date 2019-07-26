@@ -1,4 +1,4 @@
-package com.cognizant.TaskMananger.service;
+package com.cognizant.TaskManager.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,13 +7,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cognizant.TaskMananger.entity.ParentTask;
-import com.cognizant.TaskMananger.entity.Project;
-import com.cognizant.TaskMananger.entity.Task;
-import com.cognizant.TaskMananger.entity.User;
-import com.cognizant.TaskMananger.model.TaskObj;
-import com.cognizant.TaskMananger.repository.ParentTaskRepository;
-import com.cognizant.TaskMananger.repository.TaskRepository;
+import com.cognizant.TaskManager.entity.ParentTask;
+import com.cognizant.TaskManager.entity.Project;
+import com.cognizant.TaskManager.entity.Task;
+import com.cognizant.TaskManager.entity.User;
+import com.cognizant.TaskManager.model.TaskObj;
+import com.cognizant.TaskManager.repository.ParentTaskRepository;
+import com.cognizant.TaskManager.repository.TaskRepository;
 
 @Service
 public class TaskService {

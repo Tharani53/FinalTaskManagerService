@@ -15,9 +15,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.cognizant.TaskMananger.entity.ParentTask;
-import com.cognizant.TaskMananger.repository.ParentTaskRepository;
-import com.cognizant.TaskMananger.service.ParentTaskService;
+import com.cognizant.TaskManager.entity.ParentTask;
+import com.cognizant.TaskManager.repository.ParentTaskRepository;
+import com.cognizant.TaskManager.service.ParentTaskService;
 public class ParentTaskServiceTest {
 
 	 @InjectMocks

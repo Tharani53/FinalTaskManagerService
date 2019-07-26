@@ -1,4 +1,4 @@
-package com.cognizant.TaskMananger.entity;
+package com.cognizant.TaskManager.entity;
 
 import java.util.List;
 
