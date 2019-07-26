@@ -1,4 +1,4 @@
-package com.cognizant.projectmanagement.service;
+package com.cognizant.TaskManager.service;
 
 import static org.mockito.Mockito.validateMockitoUsage;
 import static org.mockito.Mockito.when;

@@ -1,4 +1,4 @@
-package com.cognizant.projectmanagement.controller;
+package com.cognizant.TaskManager.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;

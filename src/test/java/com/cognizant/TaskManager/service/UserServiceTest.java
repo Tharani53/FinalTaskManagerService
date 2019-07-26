@@ -1,4 +1,4 @@
-package com.cognizant.projectmanagement.service;
+package com.cognizant.TaskManager.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.times;

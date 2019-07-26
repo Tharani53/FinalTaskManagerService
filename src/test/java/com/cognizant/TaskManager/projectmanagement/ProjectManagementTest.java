@@ -1,4 +1,4 @@
-package com.cognizant.projectmanagement.projectmanagement;
+package com.cognizant.TaskManager.projectmanagement;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.builder.SpringApplicationBuilder;
