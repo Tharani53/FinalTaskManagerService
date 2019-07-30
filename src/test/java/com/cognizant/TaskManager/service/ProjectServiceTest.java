@@ -1,6 +1,7 @@
 package com.cognizant.TaskManager.service;
 
 import static org.mockito.Mockito.when;
+import static org.mockito.MockitoAnnotations.initMocks;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -30,10 +31,9 @@ public class ProjectServiceTest {
 	ProjectRepository repo;
 
 	@Before
-	public void init() {
-		MockitoAnnotations.initMocks(this);
+	public void setUp() {
+		initMocks(this);
 	}
-
 	@Test
 	public void addProjectTest()
 			throws ParseException {/*

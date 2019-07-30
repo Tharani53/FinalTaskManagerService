@@ -1,10 +1,12 @@
 package com.cognizant.TaskManager.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.MockitoAnnotations.initMocks;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -35,6 +37,12 @@ public class ParentTaskControllerTest {
 	
 	@MockBean
 	private ParentTaskService parentService;
+	
+	@Before
+	public void setUp() {
+		initMocks(this);
+	}
+     
 	
 	@Test
 	public void testGetAllUsers() throws Exception{

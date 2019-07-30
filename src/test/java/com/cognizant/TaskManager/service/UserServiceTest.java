@@ -5,6 +5,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.validateMockitoUsage;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
+import static org.mockito.MockitoAnnotations.initMocks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,8 +31,8 @@ public class UserServiceTest {
 	private UserRepository repo;
 
 	@Before
-	public void init() {
-		MockitoAnnotations.initMocks(this);
+	public void setUp() {
+		initMocks(this);
 	}
 
 	@After

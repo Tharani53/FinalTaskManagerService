@@ -13,7 +13,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import static org.mockito.MockitoAnnotations.initMocks;
 
 import com.cognizant.TaskManager.entity.ParentTask;
 import com.cognizant.TaskManager.repository.ParentTaskRepository;
@@ -27,9 +27,9 @@ public class ParentTaskServiceTest {
 	    ParentTaskRepository repo;
 	 
 	    @Before
-	    public void init() {
-	        MockitoAnnotations.initMocks(this);
-	    }
+		public void setUp() {
+			initMocks(this);
+		}
 	     
 
 	@Test
