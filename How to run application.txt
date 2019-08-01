@@ -2,11 +2,11 @@
 
 Step 1-> Go to  C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin and start Tomcat application.
 
-Step 2-> Open SQL workbench and start mysql local instance with username as "root" and password as "pass@word1"
+Step 2-> Open SQL workbench and start mysql local instance with username as "root" and password as "Tharani"
 
-Step 3-> Go to C:\Final Assessment\Final Assessment-Angular and open command promt. Start server using command "ng serve"
- and then the application willl start at port no 4200.
+Step 3-> Go to C:\final Project\TaskManagerFinalWeb and open command promt. Start server using command "ng serve"
+ and then the application willl start at port no 4200. or open visual studio code and type "ng serve" in terminal then the application willl start at port no 4200
  
-Step 4-> Open browser and use this url http://localhost:8080/job/FSE-%20Java/ . username is "admin" and password is "pass@word1". Then generate build in jenkins. It will automatically deploy java services in tomcat server at port no 8081.
+Step 4-> Open browser and use this url http://localhost:8080/job/TaskManagerDeploy/ . username is "admin" and password is "pass@word1". Then generate build in jenkins. It will automatically deploy java services in tomcat server at port no 8081.
 
 Step 5-> Now all services and DB connections are up.Use http://localhost:4200 in browser to view application.
